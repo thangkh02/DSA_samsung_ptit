@@ -1,3 +1,15 @@
+/*Cho biểu thức số học, hãy cho biết biểu thức số học có dư thừa các cặp ký hiệu ‘(’,’) ‘ hay không?
+
+Input:
+
+Dòng đầu tiên đưa vào số lượng bộ test T;
+Những dòng tiếp theo mỗi dòng đưa vào một bộ test. Mỗi bộ test là một biểu thức.
+Output:
+
+Đưa ra kết quả mỗi test theo từng dòng.
+Ràng buộc:
+
+T, exp thỏa mãn ràng buộc: 1≤T≤100; 2≤length(exp)≤20. */
 #include<bits/stdc++.h>
 
 using namespace std;
