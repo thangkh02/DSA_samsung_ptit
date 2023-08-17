@@ -23,14 +23,40 @@ Output:
 #include<bits/stdc++.h>
 
 using namespace std;
-
+#define pa pair<int,int>
 #define ll long long
-
+int step(int n ){
+    unordered_set<int> visited;
+    queue<pa> curr;
+    curr.push({n,0});
+    while(!curr.empty()){
+        pa tmp = curr.front(); 
+        int val = tmp.first;
+        int cnt = tmp.second;
+        curr.pop();
+        if(val == 1) return cnt;
+        if(visited.find(val - 1) == visited.end() and val - 1 >= 1){
+            visited.insert(val-1);
+            curr.push({val -1,cnt+1});
+        }
+        for(int i=2 ; i<=sqrt(val) ; i++ ){
+            if(val % i == 0){
+                if(visited.find(val/i) == visited.end()){
+                    visited.insert(val/i);
+                    curr.push({val/i, cnt + 1});
+                }
+            }
+        }
+    }
+    return -1;
+}
 int main(){
     int t;
     cin>>t;
     while(t--){
-        
+        int n ;
+        cin >> n;
+        cout << step(n) << endl;
     }
     return 0;
     
