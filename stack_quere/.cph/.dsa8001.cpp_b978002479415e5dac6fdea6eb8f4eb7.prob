@@ -1,0 +1,1 @@
+{"name":"Local: dsa8001","url":"d:\\codeptit\\samsung\\stack_quere\\dsa8001.cpp","tests":[{"id":1691763330582,"input":"1\n\n14\n\n3 1\n\n3 2\n\n3 3\n\n5\n\n6\n\n4\n\n4\n\n4\n\n4\n\n4\n\n3 5\n\n3 6\n\n5\n1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codeptit\\samsung\\stack_quere\\dsa8001.cpp","group":"local","local":true}

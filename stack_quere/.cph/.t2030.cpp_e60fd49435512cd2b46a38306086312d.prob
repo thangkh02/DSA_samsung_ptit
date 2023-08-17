@@ -1,0 +1,1 @@
+{"name":"Local: t2030","url":"d:\\codeptit\\samsung\\stack_quere\\t2030.cpp","tests":[{"id":1692185265250,"input":"1\n3\n.X.\n.X.\n...\n0 0 0 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codeptit\\samsung\\stack_quere\\t2030.cpp","group":"local","local":true}

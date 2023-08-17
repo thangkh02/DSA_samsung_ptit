@@ -1,0 +1,1 @@
+{"name":"Local: s301","url":"d:\\codeptit\\samsung\\graph\\s301.cpp","tests":[{"id":1692026251464,"input":"1\n6 9 1 6\n1 2  \n2 5\n3 1\n3 2\n3 5\n4 3\n5 4\n5 6\n6 4","output":"1 -> 2 -> 5 -> 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codeptit\\samsung\\graph\\s301.cpp","group":"local","local":true}

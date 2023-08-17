@@ -1,0 +1,1 @@
+{"name":"Local: dsa7003","url":"d:\\codeptit\\samsung\\stack_quere\\dsa7003.cpp","tests":[{"id":1691426829757,"input":"3\n((a+b))\n(a + (b)/c)\n(a + b*(c-d))","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codeptit\\samsung\\stack_quere\\dsa7003.cpp","group":"local","local":true}
