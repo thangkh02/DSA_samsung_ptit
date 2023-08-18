@@ -64,7 +64,7 @@ int main(){
     int t;
     cin>>t;
     while(t--){
-        memset(dr,0,sizeof(dl));
+        memset(dl,0,sizeof(dl));
         memset(dr,0,sizeof(dr));
         int n;
         cin>>n;
