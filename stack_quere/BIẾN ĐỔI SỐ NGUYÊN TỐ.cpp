@@ -19,17 +19,11 @@ Output:
 Ví dụ:
 
 Input
-
-
-
 2
-
 1033 8179
-
 1033 8779
 Output
 6
-
 5
 */
 #include<bits/stdc++.h>
