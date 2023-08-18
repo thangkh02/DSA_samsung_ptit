@@ -20,14 +20,14 @@ Ví dụ:
 
 Input
 
-Output
+
 
 2
 
 1033 8179
 
 1033 8779
-
+Output
 6
 
 5
