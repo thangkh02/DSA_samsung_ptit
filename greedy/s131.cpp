@@ -10,8 +10,8 @@ int main(){
     long A=0,B=0;
     for(long i=0;i<s.size();i++)
     {
-        if(s[i]=='A') B=1+(A<B?A:B);
-        else   A=1+(A<B?A:B);
+        if(s[i]=='A') B=1+min(A,B);
+        else   A=1+min(A,B);
     }
     cout<<A;
     return 0;
