@@ -1,26 +1,25 @@
-#include <bits/stdc++.h>
+/*
 
+*/
+#include<bits/stdc++.h>
 using namespace std;
-int arr[100000],n,kq;
-
-void countDistinctORs() {
-    set<int> distinct_values;
-    set<int> current_set;
-    for (int i = 0; i < n; ++i) {
-        set<int> new_set;
-        new_set.insert(arr[i]);
-        for (int val : current_set) {
-            new_set.insert(val | arr[i]);
-        }
-        current_set = new_set;
-        distinct_values.insert(current_set.begin(), current_set.end());
-    }
-    kq = distinct_values.size();
+#define ll long long
+#define set unordered_set
+int solve(int a[],int n ){
+	set<int> res,crr;
+	for(int i= 0 ; i<n ; i++){
+		set<int> tmp;
+		for(auto x : crr) tmp.insert(a[i] | x);
+		tmp.insert(a[i]);
+		for(auto x : tmp) res.insert(x);
+		crr = tmp;
+	}
+	return res.size();
 }
-  
-int main() {
-    cin >> n;
-    for (int i = 0; i < n ; i++) cin >> arr[i];
-    countDistinctORs();
-    cout << kq << endl;
+int main(){
+	int n ;
+	cin >> n;
+	int a[n];
+	for(auto &x : a) cin >> x ;
+	cout << solve(a,n) << endl;
 }
